@@ -1,0 +1,38 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Medical datasets
+data/raw/*
+data/processed/*
+*.csv
+*.parquet
+*.zip
+
+# Trained models
+models/*.keras
+models/*.h5
+models/*.hdf5
+models/*.weights.h5
+
+# Experiment outputs
+results/*
+*.log
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
