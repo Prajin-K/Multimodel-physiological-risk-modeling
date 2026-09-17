@@ -1,3 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch
+torchvision
+torchaudio
 keras
 tensorflow
 numpy
@@ -6,3 +10,4 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
+ipykernel
